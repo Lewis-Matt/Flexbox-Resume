@@ -5,11 +5,16 @@
 ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 a {
-    color: blue;
     text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: red;
 }
 
 /* Generalizations */
@@ -19,43 +24,104 @@ h1, h2, h3 {
     margin: 0;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.1em;
+    margin: 5px 0 5px 0;
+    color: #000;
+}
+
 p, li {
     font-family: Georgia, sans-serif;
     margin: 0;
 }
 
+.mainH2 {
+    background-color: #AAAAAA;
+    margin: 10px 0 20px 0;
+    border-top: #444444 solid 2px;
+    border-bottom: #444444 solid 2px;
+}
+
 /* Icons */
 i {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .devicon-intellij-plain-wordmark {
     font-size: 100px;
 }
 
-#contact {
-    display: flex;
-    flex-wrap: nowrap;
+.devicon-github-original, .devicon-linkedin-plain {
+    font-size: 20px;
+    background-color: #444;
 }
 
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+/* Overall Style */
+body {
+    background: #ddd;
+    font-size: 16px;
+}
+
+.colored {
+    background-color: transparent;
+}
+
+/* Header with Name and Title */
 header {
     border-bottom: solid #000 4px;
     background-color: #444;
     padding: 5px 0 5px 0;
+    margin-bottom: 10px;
 }
-body {
-    background: #DDD;
-}
+
 #name {
     text-transform: uppercase;
     color: #DDD;
-    text-align: center;
     font-weight: 400;
-    font-size: 2em;
 }
 
 #title {
     color: #AAA;
-    text-align: center;
     font-size: 1em;
 }
+
+/* Contact info section */
+#contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Technical Skills */
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p {
+    padding: 5px;
+}
+
+.bulleted {
+    list-style: inside;
+    padding: 0 0 5px 10px;
+}
+
+/* I started designing desktop first, and then switched to mobile first */
