@@ -115,6 +115,7 @@ header {
     justify-content: space-evenly;
 }
 
+/* Summary */
 p {
     padding: 5px;
 }
@@ -124,4 +125,3 @@ p {
     padding: 0 0 5px 10px;
 }
 
-/* I started designing desktop first, and then switched to mobile first */
