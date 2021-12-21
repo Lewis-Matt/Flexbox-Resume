@@ -10,17 +10,17 @@ ul {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: #c5c6c7;
 }
 
 a:hover {
-    color: red;
+    color: #66fcf1;
 }
 
 /* Generalizations */
 h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -29,7 +29,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 1.75em;
+    font-size: 2em;
 }
 
 h2 {
@@ -39,7 +39,15 @@ h2 {
 h3 {
     font-size: 1.1em;
     margin: 5px 0 5px 0;
-    color: #000;
+}
+
+h3 a {
+    color: #66fcf1;
+}
+
+h3 a:hover {
+    color: #45a29e;
+
 }
 
 p, li {
@@ -48,15 +56,17 @@ p, li {
 }
 
 .mainH2 {
-    background-color: #AAAAAA;
+    background-color: #45a29e;
     margin: 10px 0 20px 0;
-    border-top: #444444 solid 2px;
-    border-bottom: #444444 solid 2px;
+    padding: 5px 0 5px 0;
+    border-top: #1f2833 solid 2px;
+    border-bottom: #1f2833 solid 2px;
+    color: #1f2833;
 }
 
 /* Icons */
 i {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .devicon-intellij-plain-wordmark {
@@ -74,8 +84,9 @@ i {
 
 /* Overall Style */
 body {
-    background: #ddd;
+    background: #0b0c10;
     font-size: 16px;
+    color: #c5c6c7;
 }
 
 .colored {
@@ -84,20 +95,20 @@ body {
 
 /* Header with Name and Title */
 header {
-    border-bottom: solid #000 4px;
-    background-color: #444;
-    padding: 5px 0 5px 0;
+    border-bottom: solid #45a29e 4px;
+    background-color: #1f2833;
+    padding: 15px 0 15px 0;
     margin-bottom: 10px;
 }
 
 #name {
     text-transform: uppercase;
-    color: #DDD;
-    font-weight: 400;
+    color: #66fcf1;
+    font-weight: 600;
 }
 
 #title {
-    color: #AAA;
+    color: #c5c6c7;
     font-size: 1em;
 }
 
@@ -119,6 +130,12 @@ header {
 #educationDesktop {
     display: none;
 }
+
+/* Padding left */
+#summary, .projects, .experience, #educationMobile ul {
+    margin-left: 10px;
+}
+
 /* Summary */
 p {
     padding: 5px;
@@ -134,5 +151,19 @@ p {
 
 /* Education */
 #educationMobile {
-
+    padding-bottom: 20px;
 }
+
+footer {
+    height: 20px;
+    text-align: center;
+    border-top: #1f2833 solid 2px;
+    padding: 10px 0 10px 0;
+    font-size: 1.25em;
+}
+
+/* Color theme */
+/*#0b0c10 background*/
+/*#1f2833 heading bg*/
+/*#c5c6c7 text*/
+/*#66fcf1*/
