@@ -115,13 +115,24 @@ header {
     justify-content: space-evenly;
 }
 
+/* Hide education in aside */
+#educationDesktop {
+    display: none;
+}
 /* Summary */
 p {
     padding: 5px;
 }
 
+/* Development Projects */
+
+/* Experience */
 .bulleted {
     list-style: inside;
     padding: 0 0 5px 10px;
 }
 
+/* Education */
+#educationMobile {
+
+}
