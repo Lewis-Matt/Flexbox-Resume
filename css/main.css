@@ -172,15 +172,16 @@ p {
 /* Education */
 #educationMobile {
     padding: 10px 0 10px 0;
+    text-align: center;
 }
 
 #educationMobile ul {
     padding: 10px 0 10px 0;
 }
 
-#educationMobile ul li:nth-child(2n) {
-    padding-left: 15px;
-}
+/*#educationMobile ul li:nth-child(2n) {*/
+/*    padding-left: 15px;*/
+/*}*/
 
 #educationMobile ul li:nth-child(2n-1) {
     color: #66fcf1;
