@@ -47,7 +47,6 @@ h3 a {
 
 h3 a:hover {
     color: #45a29e;
-
 }
 
 p, li {
@@ -57,9 +56,9 @@ p, li {
 
 .mainH2 {
     background-color: #45a29e;
-    margin: 10px 0 20px 0;
+    /*margin: 10px 0 20px 0;*/
     padding: 5px 0 5px 0;
-    border-top: #1f2833 solid 2px;
+    /*border-top: #1f2833 solid 2px;*/
     border-bottom: #1f2833 solid 2px;
     color: #1f2833;
 }
@@ -98,7 +97,7 @@ header {
     border-bottom: solid #45a29e 4px;
     background-color: #1f2833;
     padding: 15px 0 15px 0;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 
 #name {
@@ -116,8 +115,8 @@ header {
 #contact {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
     align-items: center;
+    padding: 10px 0 10px 0;
 }
 
 #contact a i {
@@ -128,6 +127,7 @@ header {
 #skills {
     display: flex;
     justify-content: space-evenly;
+    padding: 10px 0 10px 0;
 }
 
 /* Hide education in aside */
@@ -142,18 +142,21 @@ header {
 
 /* Summary */
 p {
-    padding: 0 5px 5px 5px;
+    padding: 10px 0 10px 0;
 }
 
 /* Development Projects */
+.projects {
+    padding: 10px 0 10px 0;
+}
 
 /* Experience */
 .bulleted {
     list-style: inside;
-    padding: 0 0 5px 10px;
+    padding: 10px 0 10px 0;
     /* This will indent the lines after the bullet of each li */
-    text-indent: -20px;
-    margin-left: 20px;
+    text-indent: -16px;
+    margin-left: 16px;
 }
 
 .experience h3 {
@@ -163,27 +166,50 @@ p {
 
 /* Education */
 #educationMobile {
-    padding-bottom: 20px;
+    padding: 10px 0 10px 0;
 }
+
 #educationMobile ul {
-    margin-left: 40px;
-    margin-bottom: 20px;
+    padding: 10px 0 10px 0;
 }
 
 #educationMobile ul li:nth-child(2n) {
     padding-left: 15px;
 }
+
 #educationMobile ul li:nth-child(2n-1) {
     color: #66fcf1;
 }
+
 /* Footer */
 footer {
     height: 20px;
     text-align: center;
-    border-top: #1f2833 solid 2px;
+    border-top: #1f2833 solid 4px;
     padding: 10px 0 10px 0;
     font-size: 1.25em;
 }
+
+/* Media Queries for desktop */
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #educationMobile {
+        display: none;
+    }
+
+    #educationDesktop {
+        display: revert;
+    }
+
+    main {
+        display: flex;
+    }
+
+    aside {
+        border-right: solid #45a29e 30px;
+    }
+}
+
 
 /* Color theme */
 /*#0b0c10 background*/
