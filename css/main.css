@@ -201,13 +201,50 @@ footer {
         display: revert;
     }
 
+    #educationDesktop ul {
+        padding: 10px 0 10px 0;
+        text-align: center;
+    }
+
     main {
         display: flex;
     }
 
-    aside {
-        border-right: solid #45a29e 30px;
+    /*#mainContent {*/
+    /*}*/
+    #information {
+        border-right: solid #45a29e 50px;
+        flex: 0 0 400px;
     }
+
+    #skills {
+        display: grid;
+        grid-template-columns: 10% 10% 10%;
+        text-align: center;
+        grid-gap: 10px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    #title {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+
 }
 
 
