@@ -223,6 +223,8 @@ footer {
     /*#mainContent {*/
     /*}*/
     #information {
+        /* Not sure if I like it black or this color */
+        background-color: #1f2833;
         border-right: solid #45a29e 50px;
         flex: 0 0 400px;
     }
